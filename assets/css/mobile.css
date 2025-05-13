@@ -1,0 +1,55 @@
+/*
+
+Theme Name: Universal
+
+Author: Jushua FF
+
+*/
+
+
+
+@media (max-width: 767px) {
+	
+	.sidebar-toggle i {
+		margin-right: 1.5rem;
+	}
+
+	.modal {
+		padding: 0 !important;
+		background-color: rgba(0,0,0,0.8);
+	}
+
+	.modal-backdrop {
+		background: none !important;
+	}
+
+	.col-sm-6 {
+		width: 50% !important;
+	}
+
+	.btn, label {
+		font-size: 1.5rem;
+	}
+
+	.modal .input-con input, 
+	.modal .input-con select {
+		height: 45px !important;
+	}
+
+	.mobile-hide {
+		display: none !important;
+	}
+
+	.mobile-show {
+		display: block !important;
+	}
+
+	
+
+
+}
+
+
+
+
+

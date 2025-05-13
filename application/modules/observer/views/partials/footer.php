@@ -1,0 +1,1 @@
+<div class="w-100">(c) <?= date('Y') ?> | Zeldan Nordic Language Review Training Center All rights reserved</div>

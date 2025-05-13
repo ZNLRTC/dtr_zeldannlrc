@@ -1,0 +1,20 @@
+[10-Mar-2023 07:26:54 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/d3557hvjduna/public_html/application/config/config.php on line 27
+[10-Mar-2023 07:26:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Mar-2023 07:26:54 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/d3557hvjduna/public_html/application/config/config.php on line 27
+[10-Mar-2023 07:26:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-May-2023 09:43:08 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 17068
+[14-Jul-2023 02:39:27 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/include/tcpdf_static.php on line 1223
+[14-Jul-2023 02:39:49 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/include/tcpdf_static.php on line 1223
+[14-Jul-2023 02:40:37 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/include/tcpdf_static.php on line 1223
+[14-Jul-2023 02:41:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/include/tcpdf_static.php on line 1223
+[28-Jul-2023 08:35:55 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 18896
+[28-Jul-2023 08:37:09 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 18896
+[28-Jul-2023 08:38:58 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 18896
+[28-Jul-2023 08:39:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 18896
+[01-Aug-2023 05:44:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 18896
+[01-Aug-2023 05:45:22 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 18896
+[01-Aug-2023 05:47:53 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097160 bytes) in /home/d3557hvjduna/public_html/application/libraries/tcpdf/tcpdf.php on line 18896
+[14-Aug-2023 07:04:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/d3557hvjduna/public_html/application/third_party/PhpSpreadsheet/src/PhpSpreadsheet/Worksheet.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d3557hvjduna/public_html/application/third_party/PhpSpreadsheet/autoload.php on line 13
+[27-Nov-2023 07:33:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/d3557hvjduna/public_html/dtr/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 1186
+[27-Nov-2023 07:41:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/d3557hvjduna/public_html/dtr/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Coordinate.php on line 60
+[27-Nov-2023 07:45:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/d3557hvjduna/public_html/dtr/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1298

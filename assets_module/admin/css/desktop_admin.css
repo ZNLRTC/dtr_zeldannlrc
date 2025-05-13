@@ -1,0 +1,17 @@
+/*
+Module Name: Admin
+Author: Jushua FF
+*/
+
+@media (max-width: 1199px) {
+	.desktop-hide { display: none; }
+	
+	.desktop-show { display: block; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#employee-list .btn {
+		display: flex;
+		align-items: center;
+	}
+}

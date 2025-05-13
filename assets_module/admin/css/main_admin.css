@@ -1,0 +1,142 @@
+/*
+/*
+Module Name: Admin
+Author: Jushua FF
+*/
+/*-------------------------------------------------------------------
+Employee List
+-------------------------------------------------------------------*/
+	#body-row {
+		padding: 15px;
+	}
+
+	.dropdown-menu {
+		max-height: 500px;
+		overflow: auto;
+	}
+
+	#employee-list span.username {
+		color: gray;
+		font-size: 12px;
+		display: block;
+		line-height: 16px;
+	}
+
+	#employee-list .emp-profile {
+		position: relative;
+		border-radius: 50%;
+		overflow: hidden;
+		width: 30px;
+		height: 30px;
+		margin-right: 10px;
+	}
+
+	#employee-list .emp-profile img {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 100%;
+	}
+
+	#employee-list tbody tr:hover span { color: white; }
+
+	#employee-list tbody td { vertical-align: middle; }
+
+	#employee-list .password { 
+		color: #FF8C00;
+		border: 1px solid #FF8C00;
+	}
+		#employee-list .password:active,
+		#employee-list .password:hover { 
+			background-color: #FF8C00 !important;
+			color: white;
+		}
+
+	#employee-list .archive { 
+		color: #8B0000;
+		border: 1px solid #8B0000;
+	}
+		#employee-list .archive:active,
+		#employee-list .archive:hover { 
+			background-color: #8B0000 !important;
+			color: white;
+		}
+
+	#employee-list_filter,
+	#salary-grade-list_filter,
+	#aotr-list_filter,
+	#adtr-list_filter,
+	#odtr-table-list-view_filter,
+	#odtr-group-list-view_filter,
+	#dtr-list_filter,
+	#holiday-list_filter,
+	#custom-holiday-list_filter,
+	#leave-list_filter,
+	#request-dtr-update-list_filter,
+	#employee-dtr-list_filter,
+	#employee-leave-list_filter,
+	#temporary-schedule-table_filter,
+	#undertime-list-table_filter{ 
+		display: none;
+	}
+
+	#view-dtr-details-modal .status {
+		display: block;
+		font-size: 12px;
+		line-height: 0;
+	}
+
+	#temp-button, 
+	#update-dynamic-holidays { 
+		flex-wrap: wrap; 
+	}
+
+	#temp-button span,
+	#update-dynamic-holidays span {
+		display: none;
+	    color: orange;
+	    font-size: 12px;
+	}
+
+	.desktop-show { display: none; }
+
+	#aotr-list .date,
+	#leave-list .date,
+	.update-ot-status,
+	.update-leave-status {
+		white-space: nowrap;
+	}
+
+	#adtr-list .date small,
+	#dtr-list .name small,
+	#dtr-list-search-0 {
+		display: none;
+	}
+
+/*-------------------------------------------------------------------
+Holiday
+-------------------------------------------------------------------*/
+	#holiday-list tr td,
+	#custom-holiday-list tr td { 
+		vertical-align: middle; 
+	}
+
+
+/*-------------------------------------------------------------------
+Profile
+-------------------------------------------------------------------*/
+.profile-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 17px -5px;
+    overflow: hidden;
+    cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+

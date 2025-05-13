@@ -1,0 +1,128 @@
+/*
+Module Name: Universal
+Author: Jushua FF
+*/
+.modal .modal-header { background-color: var(--color-skyblue); }
+.modal .modal-header .close {
+	background: inherit;
+    border: 0;
+    font-size: 20px;
+}
+
+.modal .preview {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-bottom: 1px solid var(--color-skyblue);
+	padding-bottom: 25px;
+	margin: 5px 15px 25px 15px;
+}
+
+.modal .preview-con {
+	position: relative;
+	width: 175px; 
+	height: 175px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 17px -5px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.modal .preview-con:hover { opacity: 0.9; }
+
+.modal .preview-con img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	background: url("../../../assets/img/profile-default.jpg") no-repeat center;
+	text-align: center;
+	line-height: 180px;
+    font-size: 20px;
+}
+
+.modal .preview-con.error { border: 2px solid red; }
+.modal .preview-con.error img {
+	color: red;
+	background: url("../../../assets/img/profile-default-red.jpg") no-repeat center;
+}
+
+.modal .input-con {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+/* .modal .input-con input,
+.modal .input-con select,
+.modal .input-con textarea {
+	border: 1px solid lightgray;
+	border-radius: 0.25em;
+	width: 100%;
+    padding: 0.375rem 0.75rem;
+} */
+
+/* .modal .input-con input,
+.modal .input-con select {
+	height: 38px;
+} */
+
+.modal .input-con input:active,
+.modal .input-con input:focus,
+.modal .input-con select:active,
+.modal .input-con select:focus,
+.modal .input-con textarea:active,
+.modal .input-con textarea:focus {
+	border: 1px solid var(--color-skyblue);
+}
+
+#update-password-modal .modal-body { padding-top: 2rem; }
+
+.modal .input-con input:disabled,
+.modal .input-con textarea:disabled {
+	background-color: lightgray;
+	color: black;
+	border-color: lightgray;
+}
+
+.modal .input-con input:disabled:focus,
+.modal .input-con input:disabled:active {
+	border-color: lightgray;
+}
+
+.modal .note {
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	color: gray;
+}
+
+.modal input[type="time"]::-webkit-calendar-picker-indicator { padding: 0; }
+
+.modal input[type="time"] { font-size: 12px; }
+
+.modal textarea {
+	resize: none;
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #0096c7 #f5f5f5;
+}
+.modal textarea::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+.modal textarea::-webkit-scrollbar-thumb {
+  background-color: #0096c7;
+  border-radius: 6px;
+}
+
+.modal textarea::-webkit-scrollbar-thumb:hover {
+  background-color: #005e80;
+}
+
+.modal .modal-footer button { margin-bottom: 10px; }

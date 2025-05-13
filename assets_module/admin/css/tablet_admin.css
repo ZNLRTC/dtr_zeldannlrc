@@ -1,0 +1,14 @@
+/*
+Module Name: Admin
+Author: Jushua FF
+*/
+
+@media (max-width: 991px) {
+	#employee-list tbody td {
+		vertical-align: inherit;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}

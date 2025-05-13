@@ -1,0 +1,53 @@
+/*
+Module Name: Employee
+Author: Jushua FF
+*/
+
+@media (max-width: 767px) {
+	#overtime-list tr td:last-child {
+		display: block;
+		text-align: center;
+	}
+
+	.pr-20 { padding-right:20px; }
+
+	.remove-time { margin-right: 0; }
+
+	/*---------------------------
+	EMPLOYEE DASHBOARD
+	----------------------------*/
+	.table-search-row h3{
+		width: 175px ;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	.dtr-table-td-action {
+		display: flex;
+	}
+		.dtr-table-td-action button:first-child {
+			margin-right: .25em;
+		}
+
+	/*---------------------------
+	MODALS
+	----------------------------*/
+	#dtr-cru-modal label,
+	#dtr-cru-modal input,
+	#dtr-cru-modal select {
+		margin-bottom: 1rem;
+	}
+
+	#dtr-cru-modal input,
+	#dtr-cru-modal select {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media (max-width: 500px) {
+	
+}
+
+

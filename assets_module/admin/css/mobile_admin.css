@@ -1,0 +1,85 @@
+/*
+Module Name: Admin
+Author: Jushua FF
+*/
+
+@media (max-width: 767px) {
+	.modal { padding: 0 !important; }
+
+	#employee-list tr td:last-child { 
+		flex-wrap:wrap; 
+		justify-content: end !important;
+		width: 100%;
+	}
+
+	#adtr-list .action-column {
+		display: flex;
+		align-items: center;
+	}
+
+		/* #adtr-list .action-column span{
+			display: none;
+		} */
+
+		#adtr-list .date small,
+		#dtr-list .name small,
+		#dtr-list-search-0 {
+			display: block;
+		}
+
+	#request-dtr-update-list tr td:last-child {
+		display: flex;
+		justify-content: end;
+	}
+
+	#custom-holiday-list tr td:last-child {
+		display: flex;
+		align-items: center;
+	}
+
+	.add-leave-btn {
+		margin-right: 0 !important;
+	}
+
+	.add-leave-btn .fa-plus{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+}
+
+@media (max-width: 500px) {
+	#employee-list-search,
+	#aotr-list-search,
+	#dtr-list-search,
+	#salary-grade-list-search { 
+		width:100%; 
+		margin-top: 10px;
+	}
+
+	#dtr-list-search {
+		margin: 0;
+	}
+
+	.w500-100 { width:100%; }
+}
+
+@media (max-width: 550px) {
+	.w550-hide { display:none; }
+
+	#aotr-list tr td:last-child button { 
+		width:100%; 
+	}
+}
+
+@media (max-width: 405px) {
+	.w405-hide { display:none; }
+	#main-div { overflow-x: scroll; }
+
+	#employee-list tbody tr { 
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+}
